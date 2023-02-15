@@ -4,6 +4,6 @@ import requests
 response = requests.get("https://playground.learnqa.ru/api/hello")
 print(response.text)
 
-# тест из домашнего задания
+# тест из домашнего задания.
 getText = requests.get("https://playground.learnqa.ru/api/get_text")
 print(getText.text)
